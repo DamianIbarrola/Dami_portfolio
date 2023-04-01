@@ -7,6 +7,7 @@ import { HeaderComponent } from './COMPONENTES/header/header.component';
 import { BodyComponent } from './COMPONENTES/body/body.component';
 import { FooterComponent } from './COMPONENTES/footer/footer.component';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,10 @@ import { FooterComponent } from './COMPONENTES/footer/footer.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }

@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/iconos/iconosstyle.css",
+              "src/assets/styles/style-dark.css"
             ],
-            "scripts": []
+            "scripts": [
+
+
+            ]
           },
           "configurations": {
             "production": {

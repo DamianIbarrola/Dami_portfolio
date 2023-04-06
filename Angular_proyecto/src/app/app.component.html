@@ -35,12 +35,14 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="/src/styles.css" /> 
+	<link rel="stylesheet" href="/src/assets/styles/style-dark.css">
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
 	integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
-<body>
+<body data-bs-theme="light">
 	<!-- Preloader -->
 	<div class="preloader">
 		<div class="preloader__wrap">
@@ -61,6 +63,14 @@
 			</div>
 		</div>
 
+		<!-- BOTON LONGIN 
+		<div class="boton longin">
+			<div class="btn-longin" role="group">
+				<button data-toggle="" title="boton LONGIN Mode" type="button" class="btn login"></button>
+				
+			</div>
+		</div>  -->
+
 		<!-- Header Image -->
 		<div class="header-image">
 			<div class="js-parallax" style="background-image: url(../assets/img/header_bg_1x...png);"></div>
@@ -72,14 +82,17 @@
 				<div class="header__left">
 					<div class="header__photo">
 						<img class="header__photo-img" src="../assets/img/Filosofia_4.jpg" alt="MD">
-					</div>
-					<div class="header__base-info">
+
+						
+					</div>        <i class="fa-regular fa-pen-to-square"></i>
+					<div class="header__base-info"> 
+				
 						<h4 class="title titl--h4">Damián Ibarrola</h4>
 						<div class="status">Full Stack Developer</div>
-						<ul class="header__social">
+						<ul class="header__social"> 
 							<li><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook"></i></a></li>
-							<li><a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-							<li><a target="_blank" href="https://linkedin.com/in"><i class="fab fa-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
 							<li><a target="_blank" href="https://github.com/DamianIbarrola"><i class="fab fa-github"></i></a></li>
 							<li><a target="_blank" href=""><i class="fab fa-medium"></i></a></li>
 							<li><a target="_blank" href=""><i class="fab fa-stack-overflow"></i></a></li>
@@ -100,12 +113,12 @@
 				<aside class="col-12 col-md-12 col-lg-2">
 					<div class="sidebar box sticky-column">
 						<ul class="nav js-tabs">
-							<li class="nav__item"><a class="active" href="#about-tab"><i class="fa-regular fa-user"></i>Sobre_Mi</a>
-							</li>
-							<li class="nav__item"><a href="#resume-tab"><i class="fa-regular fa-file"></i>Resumen</a></li>
+							<li class="nav__item"><a class="active" href="#about-tab"><i class="fa-regular fa-user"></i>Tengo Interes en...</a></li>
+
+							<li class="nav__item"><a class="active" href="#resume-tab"><i class="fa-regular fa-file"></i>Añadir Sección</a></li>
 							<!-- <li class="nav__item"><a href="#works-tab"><i class="icon-codesandbox"></i>Works</a></li> -->
 							<!--<li class="nav__item"><a href="#blog-tab"><i class="icon-book-open"></i>Blog</a></li> --> 
-							<li class="nav__item"><a href="#contact-tab"><i class="fa-regular fa-address-book"></i>Contáctame</a></li> 
+							<li class="nav__item"><a class="active" href="#contact-tab"><i class="fa-regular fa-address-book"></i>Contáctame</a></li> 
 						</ul>
 					</div>
 				</aside>
@@ -118,7 +131,7 @@
 							<!-- ABOUT -->
 							<div id="about-tab" class="tabcontent active">
 								<div class="pb-0 pb-sm-2">
-									<h1 class="title title--h1 first-title title__separate">Sobre Mí</h1>
+									<h1 class="title title--h1 first-title title__separate">Sobre Mí</h1>  <i class="fa-regular fa-pen-to-square"></i>
 									<p> 
                                         Soy un jugador de equipo con excelente comunicación, apasionado y programador autodidacta.
                                         Aprender y desarrollar aplicaciones web seguras, eficientes y escalables y sistemas de administración basados en la web
@@ -135,7 +148,7 @@
 							</div>
 
 							<!-- RESUME -->
-							<div id="resume-tab" class="tabcontent">
+							<div id="resume-tab" class="tabcontent"> 
 								<div class="pb-2">
 									<h1 class="title title--h1 first-title title__separate">Resumen</h1>
 								</div>
@@ -145,28 +158,29 @@
 									<div class="col-12">
 										<h2 class="title title--h3"><img class="title-icon"
 												src="../assets/iconos/education.png"
-												alt="" /> Educación</h2>
+												alt="" /> Educación</h2> <i class="fa-regular fa-pen-to-square"></i>
 										<div class="timeline">
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">World University of Bangladesh (WUB) - Dhaka</h5>
-												<span class="timeline__period">2021 — Present</span> <br>
-												<span class="timeline__period">BSC in Computer Science Engineering (CSE)</span>
+												<h5 class="title title--h5 timeline__title">Programa de formación Téc. Arg. Programa (Remoto)</h5>
+												<span class="timeline__period">2022 — Presente</span> <br>
+												<span class="timeline__period">Desarrollo WEB Full Stack</span>
 												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
 											</article>
 
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Mangrove Institute of Science and Technology (MIST) - Khulna</h5>
-												<span class="timeline__period">2015 — 2019</span><br>
-												<span class="timeline__period">Diploma in Computer Technology</span>
+												<h5 class="title title--h5 timeline__title">Instituto Superior de Lenguas B.P. (Formosa)</h5>
+												<span class="timeline__period">2015 — 2016</span><br>
+												<span class="timeline__period">Diploma de Técnico en Lengua Inglesa</span>
 												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
 											</article>
 
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Maijpara Secondary School - Narail</h5>
-												<span class="timeline__period">2009 — 2014</span>
+												<h5 class="title title--h5 timeline__title">Instituto UPCN (Formosa) </h5>
+												<span class="timeline__period">2002 — 2006</span><br>
+												<span class="timeline__period"> Analista en Sistemas de la Información</span>
 												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
 											</article>
 										</div>
@@ -175,39 +189,39 @@
 									<div class="col-12">
 										<h2 class="title title--h3"><img class="title-icon"
 												src="../assets/iconos/experience.png"
-												alt="" /> Experiencia</h2>
+												alt="" /> Experiencia</h2> <i class="fa-regular fa-pen-to-square"></i>
 										<div class="timeline">
 											
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Full Stack Software Engineer</h5>
-												<span class="timeline__period">JUNE 2021 — Present</span><br>
-												<span class="timeline__period">At <b>Geekpicker - Dhaka</b> </span>
+												<h5 class="title title--h5 timeline__title">Administrativo/ Auditoria interna</h5>
+												<span class="timeline__period">FEB 2015 — MAY 2019</span><br>
+												<span class="timeline__period"> <b>Hotel y Casinos Howard Johnson - Formosa (Formosa)</b> </span>
 <!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
 											</article>
 											
 
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Software Engineer</h5>
-												<span class="timeline__period">JAN 2020 — DEC 2021</span><br>
-												<span class="timeline__period">At <b>TheBorak - Dhaka</b> </span>
+												<h5 class="title title--h5 timeline__title">Control/ Mantenimiento de CCTV</h5>
+												<span class="timeline__period">DIC 2013 — ENE 2015</span><br>
+												<span class="timeline__period"> <b>Hotel y Casinos Howard Johnson - Formosa (Formosa)</b> </span>
 <!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
 											</article>
 											
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Software Engineer</h5>
-												<span class="timeline__period">OCT 2019 — SEP 2021</span><br>
-												<span class="timeline__period">At <b>IBIX Global Tech - Riyadh (Remote)</b> </span>
+												<h5 class="title title--h5 timeline__title">Atención al Cliente / Aux. Tesorería</h5>
+												<span class="timeline__period">ENE 2009 — NOV 2012</span><br>
+												<span class="timeline__period"> <b>Hotel y Casinos Howard Johnson - Formosa (Formosa)</b> </span>
 <!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
 											</article>
 
 											<!-- Item -->
 											<article class="timeline__item">
-												<h5 class="title title--h5 timeline__title">Software Engineer</h5>
-												<span class="timeline__period">OCT 2018 — JAN 2020</span><br>
-												<span class="timeline__period">At <b>Print Wizard - Dhaka</b> </span>
+												<h5 class="title title--h5 timeline__title">Atención al Cliente Post Venta</h5>
+												<span class="timeline__period">ABR 2007 — MAY 2008</span><br>
+												<span class="timeline__period"> <b>Toyota Kansai - Almagro (CABA)</b> </span>
 <!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
 											</article>
 										</div>
@@ -216,8 +230,8 @@
 
 								<!-- Skills -->
 								<div class="row">
-									<div class="col-12">
-										<h2 class="title title--h3">Mis Skills</h2>
+									<div class="col-12"> 
+										<h2 class="title title--h3">Mis Skills</h2> <i class="fa-regular fa-pen-to-square"></i>
 										<div class="box box__border">
 											<!-- <div class="progress">
 												
@@ -225,31 +239,31 @@
 											<div>
 												<span class="badge badge-primary">HTML</span>
 												<span class="badge badge-primary">CSS</span>
-												<span class="badge badge-primary">JS</span>
+												<span class="badge badge-primary">JavaScripts</span>
 												<span class="badge badge-primary">Bootstrap</span>
-												<span class="badge badge-primary">Jquery</span>
+												<span class="badge badge-primary">Angular</span>
 												<span class="badge badge-primary">ReactJs</span>
-												<span class="badge badge-primary">VueJs</span>
-												<span class="badge badge-primary">PHP</span>
+												<span class="badge badge-primary">Git</span>
+												<span class="badge badge-primary">PhotoShop</span>
 												<!-- <span class="badge badge-primary">Laravel</span>
 												<span class="badge badge-primary">Lumen</span> -->
-												<span class="badge badge-primary">C</span>
-												<span class="badge badge-primary">Python</span>
-												<span class="badge badge-primary">MySQL</span>
-												<span class="badge badge-primary">Apache</span>
+												<span class="badge badge-primary">Adobe-Illustrator</span>
+												<span class="badge badge-primary">Figma</span>
+												<span class="badge badge-primary">My-SQL</span>
+												<span class="badge badge-primary">VS-Code</span>
 												<!-- <span class="badge badge-primary">Nginx</span>
 												<span class="badge badge-primary">AWS</span>
 												<span class="badge badge-primary">Digital Ocean</span> -->
-												<span class="badge badge-primary">Rest API</span>
-												<span class="badge badge-primary">Git</span>
+												<span class="badge badge-primary">Atención al Cliente</span>
+												<span class="badge badge-primary">Adminitrativo Señor</span>
 												<!-- <span class="badge badge-primary">Redis</span>
 												<span class="badge badge-primary">Socket IO</span>
 												<span class="badge badge-primary">CI-CD</span> -->
-												<span class="badge badge-primary">Windows</span>
-												<span class="badge badge-primary">Linux</span>
-												<span class="badge badge-primary">MacOS</span>
-												<span class="badge badge-primary">VS Code</span>
-												<span class="badge badge-primary">Leadership</span>
+												<span class="badge badge-primary">Dactilografía</span>
+												<span class="badge badge-primary">Marketing</span>
+												<span class="badge badge-primary">Suite de Google</span>
+												<!-- <span class="badge badge-primary">VS Code</span>
+												<span class="badge badge-primary">Leadership</span> -->
 											</div>
 										</div>
 									</div>
@@ -368,7 +382,7 @@
 							<!-- CONTACT -->
 							<div id="contact-tab" class="tabcontent">
 								<div class="pb-2">
-									<h1 class="title title--h1 first-title title__separate">Contact</h1>
+									<h1 class="title title--h1 first-title title__separate">Contacto</h1>
 								</div>
 
 								<!-- Contact 
@@ -381,21 +395,21 @@
 									<div class="row">
 										<div class="form-group col-12 col-md-6">
 											<input type="text" class="form-control" id="nameContact" name="nameContact"
-												placeholder="Full name" required="required" autocomplete="on"
+												placeholder="Nombre completo" required="required" autocomplete="on"
 												oninvalid="setCustomValidity('Fill in the field')"
 												onkeyup="setCustomValidity('')">
 											<div class="help-block with-errors"></div>
 										</div>
 										<div class="form-group col-12 col-md-6">
 											<input type="email" class="form-control" id="emailContact"
-												name="emailContact" placeholder="Email address" required="required"
+												name="emailContact" placeholder="Dirección de Email" required="required"
 												autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')"
 												onkeyup="setCustomValidity('')">
 											<div class="help-block with-errors"></div>
 										</div>
 										<div class="form-group col-12 col-md-12">
 											<textarea class="textarea form-control" id="messageContact"
-												name="messageContact" placeholder="Your Message" rows="4"
+												name="messageContact" placeholder="Tu Mensaje" rows="4"
 												required="required" oninvalid="setCustomValidity('Fill in the field')"
 												onkeyup="setCustomValidity('')"></textarea>
 											<div class="help-block with-errors"></div>
@@ -406,8 +420,8 @@
 											<div id="validator-contact" class="hidden"></div>
 										</div>
 										<div class="col-12 col-md-6 order-1 order-md-2 text-right">
-											<button type="submit" class="btn"><i class="fa fa-regular fa-paper-plane"></i> Send
-												Message</button>
+											<button type="submit" class="btn"><i class="fa fa-regular fa-paper-plane">
+											</i>  Enviar Mensaje</button>
 										</div>
 									</div>
 								</form>
@@ -426,26 +440,29 @@
 	<div class="back-to-top"></div>
 
 	<!-- JavaScripts -->
-	
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
 
+	<script src="../assets/js/landing_page.js"></script>
+	
 	<script>
 		if (localStorage.getItem("theme") === null) {
 			localStorage.setItem('theme', 'dark');
 		} 
 		if(localStorage.getItem('theme') === 'dark') {
-			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="../assets/styles/style-dark.css" />');
 		} else {
 			$('head link[href="assets/styles/style-dark.css"]').remove();
 		}
 
 		$('.light').click(function (){
 			localStorage.setItem('theme', 'light');
-			$('head link[href="assets/styles/style-dark.css"]').remove();
+			$('head link[href="../assets/styles/style-dark.css"]').remove();
 		});
 
 		$('.dark').click(function (){
 			localStorage.setItem('theme', 'dark');
-			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="../assets/styles/style-dark.css" />');
 		});
 
 		$('[data-toggle="tooltip"]').tooltip({

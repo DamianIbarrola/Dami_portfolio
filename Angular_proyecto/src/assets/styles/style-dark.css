@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&amp;display=swap");
 /* -----------------------------------------------------------------
     - General Styles
 ----------------------------------------------------------------- */
@@ -20,18 +20,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .overhead {
-  color: #AEB0B8;
+  color: #0D86FF;
 }
 
 .block-quote::before {
   background-image: fill-rule="evenodd" clip-rule="evenodd" d="M9.62644 6.14163L11.0995 7.02315C11.3631 7.18094 11.4232 7.53679 11.2282 7.77423C9.07599 10.3944 7.12216 13.2357 7.12195 16.7563C10.0635 16.7563 13.0949 19.1512 13.0949 22.2173C13.0949 26.5003 9.61052 29.1677 6.12633 28.6712C2.64214 28.1748 0.58078 25.6925 0.153573 22.7138C-0.826376 15.881 2.98832 9.72814 8.60376 6.14885C8.9145 5.95079 9.31024 5.95241 9.62644 6.14163ZM30.5316 6.14241L32.0046 7.02393C32.2683 7.18172 32.3284 7.53757 32.1333 7.77501C29.9811 10.3951 28.0273 13.2365 28.0271 16.7571C30.9687 16.7571 34 19.152 34 22.2181C34 26.5011 30.5157 29.1685 27.0315 28.672C23.5473 28.1756 21.4859 25.6933 21.0587 22.7146C20.0788 15.8818 23.8935 9.72891 29.5089 6.14963C29.8196 5.95156 30.2154 5.95318 30.5316 6.14241Z" fill="#0D86FF";
 }
 .block-quote__author::before {
-  background-color: #AEB0B8;
+  background-color: #0D86FF;
 }
 
 iframe {
-  background-color: #5E6E80;
+  background-color: #4d80ee;
 }
 
 /* -----------------------------------------------------------------
@@ -99,9 +99,9 @@ select option,
 }
 
 .dropdown-menu {
-  background-color: #33363D;
+  background-color: #0D86FF;
   box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.5);
-  color: #AEB0B8;
+  color: #0D86FF;
 }
 .dropdown-menu::before {
   border-top: 0.375rem solid #33363D;
@@ -117,7 +117,7 @@ select option,
 
 .bs-tooltip-top .arrow::before,
 .bs-tooltip-auto[x-placement^="top"] .arrow::before {
-  border-top-color: #AEB0B8;
+  border-top-color: #0D86FF;
 }
 
 .bs-tooltip-right .arrow::before,
@@ -234,15 +234,14 @@ select option,
 }
 .nav__item a.active {
   background-image: linear-gradient(142.17deg, #0DA2FF 6.66%, #0055FF 91.48%);
-  box-shadow: inset -4px -4px 5px rgba(0, 0, 0, 0.2), inset 4px 4px 5px rgba(255, 255, 255, 0.23);
-  color: #FCFCFC;
+  
 }
 .nav__item a.active:hover {
   color: #FCFCFC;
 }
 @media only screen and (max-width: 580px) {
   .nav__item a.active {
-    background-image: none;
+    background-image: #0055FF 91.48%;
     box-shadow: none;
     color: #0D86FF;
   }
